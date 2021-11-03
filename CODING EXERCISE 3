@@ -1,0 +1,47 @@
+package MyScanner;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1;
+		double value2;
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the number : ");
+		num1 = scan.nextInt();
+		System.out.println("The number is " + num1);
+		
+		System.out.println("Enter the value : ");
+		value2 = scan.nextDouble();
+		System.out.println("The value is " + value2);
+		
+		num1++;
+		value2--;
+		
+		System.out.println("Integer increament by 1 : " + num1 );
+		System.out.println("Value decreament by 1 : " + value2 );
+		
+		num1 = num1 + 5;
+		value2 = value2 - 5;
+		
+		System.out.println("Integer increament by 5 : " + num1);
+		System.out.println("Value decreament by 5 : " + value2);
+		
+		num1 = num1%10;
+		value2 = value2%10;
+		
+		System.out.println("Integer mod 10 : " + num1 );
+		System.out.println("Value mod 10 : " + value2 );
+		
+		double y = Math.pow(num1, value2);
+		System.out.println(y);
+		
+
+	}
+
+}
