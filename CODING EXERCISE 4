@@ -1,0 +1,12 @@
+package MyScanner;
+
+public class NoteSlide34 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final int MIN_HEIGHT = 69; //constant not variable
+		System.out.println(MIN_HEIGHT);
+
+	}
+
+}
