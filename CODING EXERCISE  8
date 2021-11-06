@@ -1,0 +1,13 @@
+package MyScanner;
+
+public class NoteSlide42 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int answer = 42;
+		
+		System.out.println("The variable name " + answer + " is assigned a value of " + 42);
+
+	}
+
+}
