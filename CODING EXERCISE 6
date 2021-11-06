@@ -1,0 +1,23 @@
+package MyScanner;
+
+import java.util.Scanner;
+
+public class NoteSlide43 {
+
+	public static void main(String[] args) {
+		int count = 0;
+		char grade = 'A';
+		
+		Scanner scan  = new Scanner(System.in);
+		
+		System.out.println("Enter the number : ");
+		count = scan.nextInt();
+		System.out.println("The number is " + count );
+
+		grade = scan.next().charAt(1);
+		System.out.println(" A " + grade);
+
+
+	}
+
+}
