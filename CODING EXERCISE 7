@@ -1,0 +1,12 @@
+package MyScanner;
+
+public class NoteSlide29 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int luckyNumber = 29;
+		System.out.println(luckyNumber); //uninitialized variable
+
+	}
+
+}
